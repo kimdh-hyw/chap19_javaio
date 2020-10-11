@@ -15,9 +15,11 @@ public class CreateFileObject {
 		
 		//#1-2. 파일 객체 생성 (실제파일 생성)
 		File newFile = new File("C:/temp/newFile.txt");
+		
 		if(!newFile.exists())
-			newFile.createNewFile();
-		System.out.println(newFile.exists());
+			newFile.createNewFile(); //temp 폴더가 없는 경우 예외 발생
+		System.out.println(newFile.exists()); 
+		System.out.println();
 		
 		//#2. 파일구분자
 		File newFile2 = new File("C:\\temp\\newFile.txt");
@@ -26,6 +28,7 @@ public class CreateFileObject {
 		System.out.println(newFile2.exists());
 		System.out.println(newFile3.exists());
 		System.out.println(newFile4.exists());
+		System.out.println();
 		
 		//#3-1. 절대경로
 		File newFile5 = new File("C:/abc/newFile.txt");

@@ -13,6 +13,8 @@ public class CreateChasetObject {
 		System.out.println(cs2); //MS949
 		System.out.println(cs3); //UTF-8
 		
+		System.out.println();
+		
 		System.out.println(Charset.isSupported("MS949")); //true
 		System.out.println(Charset.isSupported("UTF-8")); //true
 	}
