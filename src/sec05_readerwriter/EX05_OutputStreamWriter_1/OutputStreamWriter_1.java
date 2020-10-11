@@ -26,13 +26,16 @@ public class OutputStreamWriter_1 {
 		
 		File outputStreamWriter2 = new File("src\\sec05_readerwriter\\files\\OutputStreamWiter2.txt");
 		try(OutputStream os = new FileOutputStream(outputStreamWriter2, false);
-			OutputStreamWriter ow = new OutputStreamWriter(os, "MS949");){
+			OutputStreamWriter osw = new OutputStreamWriter(os, "MS949");){
 			
-			ow.write("OutputStreamWriter1 예제파일입니다.\n".toCharArray());
-			ow.write("한글과 영문이 모두 포함되어 있습니다.");
-			ow.write('\n');
-			ow.write("Good Bye!!!\n\n");
-			ow.flush();
+			osw.write("OutputStreamWriter1 예제파일입니다.\n".toCharArray());
+			osw.write("한글과 영문이 모두 포함되어 있습니다.");
+			osw.write('\n');
+			osw.write("Good Bye!!!\n\n");
+			osw.flush();
+		
+			System.out.println(osw.getEncoding()); //MS949
+
 		} catch(IOException e) {}
 						
 	}

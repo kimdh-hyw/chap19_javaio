@@ -27,7 +27,7 @@ public class ConsoleInputObject_2 {
 				
 		
 		//#3. n-byte 단위 읽기 (length 만큼 앞에서부터 읽어와서 byte[] offset위치부터 넣어라)
-		byte[] byteArray2 = new byte[100];
+		byte[] byteArray2 = new byte[8]; //offset+length
 		int offset=3;
 		int length=5;
 		int count2 = is.read(byteArray2, offset, length);

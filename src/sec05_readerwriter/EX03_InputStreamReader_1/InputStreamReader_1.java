@@ -32,6 +32,8 @@ public class InputStreamReader_1 {
 			while((data=isr.read())!=-1) {
 				System.out.print((char)data);
 			}
+			System.out.println("\n"+isr.getEncoding());//MS949
+			
 			
 		} catch(IOException e) {}
 	}

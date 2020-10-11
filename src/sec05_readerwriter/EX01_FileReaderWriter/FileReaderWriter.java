@@ -13,7 +13,7 @@ public class FileReaderWriter {
 		//#파일객체 생성
 		File readerWriterFile = new File("src\\sec05_readerwriter\\files\\ReaderWriterFile.txt");
 		
-		//#1.FileWiter를 이용한 파일 쓰기
+		//#1.FileWiter를 이용한 파일 쓰기 (UTF-8 모드)
 		try(Writer writer = new FileWriter(readerWriterFile)){
 			
 			writer.write("안녕하세요\n".toCharArray());
@@ -25,7 +25,7 @@ public class FileReaderWriter {
 			
 		}catch(IOException e) {}
 		
-		//#2.FileReader를 이용한 파일 읽기
+		//#2.FileReader를 이용한 파일 읽기 (UTF-8 모드)
 		try(Reader reader = new FileReader(readerWriterFile)){
 			
 			int data;
