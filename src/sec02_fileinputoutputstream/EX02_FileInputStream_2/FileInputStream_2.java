@@ -26,7 +26,7 @@ public class FileInputStream_2 {
 		
 		byte[] byteArray1 = new byte[9];
 		int count1;
-		while((count1 = is2.read(byteArray1))!=-1) {
+		while((count1 = is2.read(byteArray1))!=-1) { // count1 = 9, 9, 2, -1
 			for(int i=0; i<count1; i++) {
 				System.out.print((char)byteArray1[i]);
 			}

@@ -30,8 +30,8 @@ public class ByteArrayToFromString {
 		System.out.println(str2); //defaultCharset->defaultCharset
 		System.out.println(str3); //MS949->MS949
 		System.out.println(str4); //UTF-8->UTF-8
-		System.out.println(str5); //MS949->UTF-8 (깨짐)
-		System.out.println(str6); //UTF-8->MS949 (깨짐)
+		System.out.println(str5); //MS949->UTF-8 : ���� (깨짐)
+		System.out.println(str6); //UTF-8->MS949: 媛먯궗(깨짐)
 		
 	}
 }
