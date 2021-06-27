@@ -15,7 +15,7 @@ public class CombineFilterStream {
 	public static void main(String[] args) throws IOException {
 		
 		//파일 생성
-		File dataFile = new File("src\\sec04_filterinputoutputstream\\files\\file2.data");
+		File dataFile = new File("src/sec04_filterinputoutputstream/files/file2.data");
 		
 		//데이터 쓰기 (DataOutputStream)
 		try(OutputStream os = new FileOutputStream(dataFile);
