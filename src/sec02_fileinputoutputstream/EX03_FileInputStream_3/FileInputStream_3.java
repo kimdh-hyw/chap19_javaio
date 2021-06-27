@@ -10,7 +10,7 @@ public class FileInputStream_3 {
 	public static void main(String[] args) throws IOException {
 		
 		//입력파일 생성
-        File inFile = new File("src\\sec02_fileinputoutputstream\\files\\FileInputStream2.txt");
+        File inFile = new File("src/sec02_fileinputoutputstream/files/FileInputStream2.txt");
         
         //#2. n-byte 단위 읽기 (byte[]의 처음 위치에서 붙터 읽은 데이터 저장)
         InputStream is2 = new FileInputStream(inFile);
