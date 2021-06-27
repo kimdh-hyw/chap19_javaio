@@ -8,7 +8,7 @@ import java.io.InputStream;
 public class FileInputStream_1 {
 	public static void main(String[] args) throws IOException {
 		//입력파일 생성
-		File inFile = new File("src\\sec02_fileinputoutputstream\\files\\FileInputStream1.txt");
+		File inFile = new File("src/sec02_fileinputoutputstream/files/FileInputStream1.txt");
 		
 		//InputStream 객체 생성
 		InputStream is = new FileInputStream(inFile);
