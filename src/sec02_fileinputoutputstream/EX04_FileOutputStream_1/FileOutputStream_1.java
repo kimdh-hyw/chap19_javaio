@@ -9,7 +9,7 @@ public class FileOutputStream_1 {
 	public static void main(String[] args) throws IOException {
 		
 		//입력파일 생성
-		File outFile = new File("src\\sec02_fileinputoutputstream\\files\\FileOutputStream1.txt");
+		File outFile = new File("src/sec02_fileinputoutputstream/files/FileOutputStream1.txt");
 		
 		//#1. 1-byte 단위 쓰기
 		OutputStream os1 = new FileOutputStream(outFile);
