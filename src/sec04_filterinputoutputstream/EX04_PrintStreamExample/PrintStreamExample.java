@@ -11,8 +11,8 @@ public class PrintStreamExample {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
 		//#File 객체 생성
-		File outFile1 = new File("src\\sec04_filterinputoutputstream\\files\\PrintStream1.txt");
-		File outFile2 = new File("src\\sec04_filterinputoutputstream\\files\\PrintStream2.txt");
+		File outFile1 = new File("src/sec04_filterinputoutputstream/files/PrintStream1.txt");
+		File outFile2 = new File("src/sec04_filterinputoutputstream/files/PrintStream2.txt");
 		
 		//#1. PrintStream(FileOutputStream(File))
 		try(OutputStream os1 = new FileOutputStream(outFile1);
