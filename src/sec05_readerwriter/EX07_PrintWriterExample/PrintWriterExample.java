@@ -10,9 +10,9 @@ public class PrintWriterExample {
 	public static void main(String[] args) {
 		
 		//파일객체 생성
-		File printWriter1 = new File("src\\sec05_readerwriter\\files\\printWriter1.txt");
-		File printWriter2 = new File("src\\sec05_readerwriter\\files\\printWriter2.txt");
-		File printWriter3 = new File("src\\sec05_readerwriter\\files\\printWriter3.txt");
+		File printWriter1 = new File("src/sec05_readerwriter/files/printWriter1.txt");
+		File printWriter2 = new File("src/sec05_readerwriter/files/printWriter2.txt");
+		File printWriter3 = new File("src/sec05_readerwriter/files/printWriter3.txt");
 		
 		//#1. PrintWriter(File file)
 		try(PrintWriter pw = new PrintWriter(printWriter1);){
