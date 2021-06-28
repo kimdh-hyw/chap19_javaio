@@ -11,7 +11,7 @@ import java.io.Reader;
 public class InputStreamReader_1 {
 	public static void main(String[] args) {
 		//#파일객체 생성
-		File inputStreamReader = new File("src\\sec05_readerwriter\\files\\InputStreamReader.txt");
+		File inputStreamReader = new File("src/sec05_readerwriter/files/InputStreamReader.txt");
 				
 		//#1.FileReader를 이용한 파일 읽기
 		try(Reader reader = new FileReader(inputStreamReader)){
