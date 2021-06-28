@@ -13,7 +13,7 @@ public class BufferedReaderWriter {
 	public static void main(String[] args) {
 		
 		//#파일객체 생성
-		File readerWriterFile = new File("src\\sec05_readerwriter\\files\\BufferedFile.txt");
+		File readerWriterFile = new File("src/sec05_readerwriter/files/BufferedFile.txt");
 		
 		//#1.FileWiter를 이용한 파일 쓰기 (UTF-8 모드)
 		try(Writer writer = new FileWriter(readerWriterFile);
