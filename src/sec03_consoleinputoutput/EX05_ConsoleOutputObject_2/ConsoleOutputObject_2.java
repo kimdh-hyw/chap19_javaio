@@ -1,5 +1,7 @@
 package sec03_consoleinputoutput.EX05_ConsoleOutputObject_2;
 
+/*write() 메서드를 이용해 콘솔로 한글 데이터 출력하기*/
+	
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.charset.Charset;
@@ -23,3 +25,4 @@ public class ConsoleOutputObject_2 {
 
 	}
 }
+
