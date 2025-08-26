@@ -1,5 +1,7 @@
 package sec02_fileinputoutputstream.EX01_FileInputStream_1;
 
+/*FileInputStream의 객체 생성과 available(), close() 메서드의 활용*/
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -24,3 +26,4 @@ public class FileInputStream_1 {
 		
 	}
 }
+
