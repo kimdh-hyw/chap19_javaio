@@ -1,5 +1,7 @@
 package sec01_fileandcharset.EX02_FileMethods;
 
+/*파일 클래스의 주요 메서드*/
+
 import java.io.File;
 
 public class FileMethods {
@@ -32,6 +34,7 @@ public class FileMethods {
 		}
 	}
 }
+
 
 
 
