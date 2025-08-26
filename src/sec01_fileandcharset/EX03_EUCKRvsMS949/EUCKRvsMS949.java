@@ -3,6 +3,7 @@ package sec01_fileandcharset.EX03_EUCKRvsMS949;
 /*EUC-KR 문자셋과 MS949 문자셋의 비교*/
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
 
 public class EUCKRvsMS949 {
 	public static void main(String[] args) throws UnsupportedEncodingException {
@@ -47,4 +48,5 @@ public class EUCKRvsMS949 {
 		
 	}
 }
+
 
