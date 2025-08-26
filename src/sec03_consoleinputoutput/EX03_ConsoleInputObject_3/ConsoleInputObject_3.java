@@ -1,5 +1,7 @@
 package sec03_consoleinputoutput.EX03_ConsoleInputObject_3;
 
+/*read() 메서드를 이용해 콘솔로 한글 데이터 읽기*/
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.Charset;
@@ -29,3 +31,4 @@ public class ConsoleInputObject_3 {
 		System.out.println(str2);
 	}
 }
+
