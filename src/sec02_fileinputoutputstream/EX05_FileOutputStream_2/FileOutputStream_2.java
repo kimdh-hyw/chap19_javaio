@@ -1,5 +1,7 @@
 package sec02_fileinputoutputstream.EX05_FileOutputStream_2;
 
+/*FileOutputStream의 write() 메서드를 이용해 한글 데이터 쓰기*/
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -31,3 +33,4 @@ public class FileOutputStream_2 {
 		
 	}
 }
+
