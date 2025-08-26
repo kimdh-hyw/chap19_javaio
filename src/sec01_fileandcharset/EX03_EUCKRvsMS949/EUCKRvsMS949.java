@@ -1,9 +1,13 @@
 package sec01_fileandcharset.EX03_EUCKRvsMS949;
 
+/*EUC-KR 문자셋과 MS949 문자셋의 비교*/
+
 import java.io.UnsupportedEncodingException;
 
 public class EUCKRvsMS949 {
 	public static void main(String[] args) throws UnsupportedEncodingException {
+		
+		System.out.println("기본 문자셋 :" + Charset.defaultCharset()); //
 		
 		//#EUC-KR vs. MS949
 		byte[] b1 = "a".getBytes("EUC-KR"); //문자열--> byte[]
@@ -19,6 +23,8 @@ public class EUCKRvsMS949 {
 		
 		byte[] b3 = "가".getBytes("EUC-KR"); //문자열--> byte[]
 		byte[] b4 = "가".getBytes("MS949");  //문자열--> byte[]
+		//byte[] b5 = "가".getBytes("UTF8");  //문자열--> byte[]
+		
 		
 		System.out.println(b3.length); //2
 		System.out.println(b4.length); //2
@@ -41,3 +47,4 @@ public class EUCKRvsMS949 {
 		
 	}
 }
+
