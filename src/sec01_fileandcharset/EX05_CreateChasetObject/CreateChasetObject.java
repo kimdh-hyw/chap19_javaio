@@ -1,5 +1,7 @@
 package sec01_fileandcharset.EX05_CreateChasetObject;
 
+/*문자셋을 저장 및 관리하는 Charset 객체 생성 및 지원 여부 확인*/
+
 import java.nio.charset.Charset;
 
 public class CreateChasetObject {
@@ -19,3 +21,4 @@ public class CreateChasetObject {
 		System.out.println(Charset.isSupported("UTF-8")); //true
 	}
 }
+
