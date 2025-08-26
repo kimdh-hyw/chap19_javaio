@@ -1,5 +1,7 @@
 package sec03_consoleinputoutput.EX04_ConsoleOutputObject_1;
 
+/*write() 메서드를 이용해 콘솔로 영문 데이터 출력하기*/
+
 import java.io.IOException;
 import java.io.OutputStream;
 
@@ -32,3 +34,4 @@ public class ConsoleOutputObject_1 {
 
 	}
 }
+
