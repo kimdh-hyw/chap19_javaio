@@ -1,9 +1,14 @@
 package sec01_fileandcharset.EX04_UTF16vsUTF8;
 
+/*UTF-16 문자셋과 UTF-8 문자셋의 비교*/
+
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.Charset;
 
 public class UTF16vsUTF8 {
 	public static void main(String[] args) throws UnsupportedEncodingException {
+
+		System.out.println("기본 문자셋 :" + Charset.defaultCharset()); //
 		
 		//#UTF-16 vs. UTF-8
 		byte[] b1 = "abc".getBytes("UTF-16"); //문자열--> byte[]
@@ -44,3 +49,4 @@ public class UTF16vsUTF8 {
 		System.out.println();
 	}
 }
+
