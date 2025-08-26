@@ -1,5 +1,7 @@
 package sec01_fileandcharset.EX06_ByteArrayToFromString;
 
+/*String → byte[]와 byte[] → String 변환(UTF-8이 기본 문자셋일 때)*/
+
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 
@@ -35,3 +37,4 @@ public class ByteArrayToFromString {
 		
 	}
 }
+
