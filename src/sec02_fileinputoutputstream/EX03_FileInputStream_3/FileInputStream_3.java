@@ -1,5 +1,7 @@
 package sec02_fileinputoutputstream.EX03_FileInputStream_3;
 
+/*FileInputStream의 read() 메서드를 이용한 한글 데이터 읽기*/
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -37,4 +39,5 @@ public class FileInputStream_3 {
         is3.close();        
     }
 }
+
 
