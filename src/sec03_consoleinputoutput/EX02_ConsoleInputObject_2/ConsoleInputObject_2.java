@@ -1,5 +1,7 @@
 package sec03_consoleinputoutput.EX02_ConsoleInputObject_2;
 
+/*read() 메서드를 이용해 콘솔로 영문 데이터 읽기*/
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -37,3 +39,4 @@ public class ConsoleInputObject_2 {
 		System.out.println(" : count = " + count2);
 	}
 }
+
