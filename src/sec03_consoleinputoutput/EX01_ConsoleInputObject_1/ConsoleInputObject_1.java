@@ -1,5 +1,7 @@
 package sec03_consoleinputoutput.EX01_ConsoleInputObject_1;
 
+/*콘솔 입력을 위한 System.in 활용과 available(), close() 메서드의 활용*/
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -17,3 +19,4 @@ public class ConsoleInputObject_1 {
 		
 	}
 }
+
