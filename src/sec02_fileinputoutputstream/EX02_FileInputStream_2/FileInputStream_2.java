@@ -1,5 +1,7 @@
 package sec02_fileinputoutputstream.EX02_FileInputStream_2;
 
+/*read() 메서드를 이용한 영문 데이터 읽기*/
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -47,6 +49,7 @@ public class FileInputStream_2 {
         is3.close(); 
     }
 }
+
 
 
 
