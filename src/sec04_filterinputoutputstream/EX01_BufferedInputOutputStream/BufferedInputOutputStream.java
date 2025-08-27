@@ -1,5 +1,7 @@
 package sec04_filterinputoutputstream.EX01_BufferedInputOutputStream;
 
+/*Buffered(Input/Output)Stream 클래스를 활용한 입출력 속도 개선*/
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -51,3 +53,4 @@ public class BufferedInputOutputStream {
 		System.out.println("Ratio of with and without : " +time1/time2);
 	}
 }
+
