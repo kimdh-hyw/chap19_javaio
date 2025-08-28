@@ -1,5 +1,7 @@
 package sec04_filterinputoutputstream.EX02_DataInputOutputStream;
 
+/*Data(Input/Output)Stream 클래스를 활용한 다양한 타입의 입출력 구현*/
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
@@ -38,3 +40,4 @@ public class DataInputOutputStream {
 		}	
 	}
 }
+
