@@ -1,5 +1,7 @@
 package sec04_filterinputoutputstream.EX03_CombineFilterStream;
 
+/*Buffered(Input/Output)Stream과 Data(Input/Output)Stream의 조합*/
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
@@ -42,3 +44,4 @@ public class CombineFilterStream {
 		}	
 	}
 }
+
