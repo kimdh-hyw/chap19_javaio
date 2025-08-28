@@ -1,5 +1,7 @@
 package sec04_filterinputoutputstream.EX04_PrintStreamExample;
 
+/*PrintStream 객체 생성 및 활용(File 출력, OutputStream 출력, 콘솔 출력)*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -46,3 +48,4 @@ public class PrintStreamExample {
 		
 	}
 }
+
