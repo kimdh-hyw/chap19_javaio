@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX04_InputStreamReader_2;
 
+/*콘솔로 입력된 문자열을 MS949 문자셋과 UTF-8 문자셋으로 각각 읽기*/
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -29,3 +31,4 @@ public class InputStreamReader_2 {
 		} catch (IOException e) {}
 	}
 }
+
