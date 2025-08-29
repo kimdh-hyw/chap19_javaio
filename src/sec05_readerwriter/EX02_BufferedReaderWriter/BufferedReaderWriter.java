@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX02_BufferedReaderWriter;
 
+/*Buffered(Reader/Writer) 클래스를 활용한 입출력 속도 개선*/
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -40,3 +42,4 @@ public class BufferedReaderWriter {
 		} catch(IOException e) {}
 	}
 }
+
