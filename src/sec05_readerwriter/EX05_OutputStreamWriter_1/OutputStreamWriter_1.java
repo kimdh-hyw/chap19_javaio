@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX05_OutputStreamWriter_1;
 
+/*File Writer와 OutputStreamWriter를 이용해 각각 파일 쓰기*/
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -9,8 +11,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 
 public class OutputStreamWriter_1 {
-	public static void main(String[] args){
-		
+	public static void main(String[] args){		
 			
 		//#1. FileWriter를 이용하여 데이터 쓰기 (디폴트 (UTF-8))
 		File outputStreamWriter1 = new File("src/sec05_readerwriter/files/OutputStreamWiter1.txt");
@@ -40,3 +41,4 @@ public class OutputStreamWriter_1 {
 						
 	}
 }
+
