@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX01_FileReaderWriter;
 
+/*FileReader와 FileWriter를 이용한 char 단위의 파일 입출력 구현*/
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -36,3 +38,4 @@ public class FileReaderWriter {
 		} catch(IOException e) {}
 	}
 }
+
