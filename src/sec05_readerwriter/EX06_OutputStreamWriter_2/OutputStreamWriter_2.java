@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX06_OutputStreamWriter_2;
 
+/*MS949 문자셋과 UTF-8 문자셋을 이용해 콘솔에 각각 출력하기*/
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
@@ -35,3 +37,4 @@ public class OutputStreamWriter_2 {
 		
 	}
 }
+
