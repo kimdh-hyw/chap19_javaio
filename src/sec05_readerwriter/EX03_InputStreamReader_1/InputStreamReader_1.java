@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX03_InputStreamReader_1;
 
+/*MS949 인코딩 파일을 FileReader와 FileInputStreamReader로 각각 읽기*/
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
@@ -38,3 +40,4 @@ public class InputStreamReader_1 {
 		} catch(IOException e) {}
 	}
 }
+
