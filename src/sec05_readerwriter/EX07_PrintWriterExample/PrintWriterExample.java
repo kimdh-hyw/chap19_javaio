@@ -1,5 +1,7 @@
 package sec05_readerwriter.EX07_PrintWriterExample;
 
+/*PrintWriter 객체 생성 및 활용(File, OutputStream, Writer, 콘솔 출력)*/
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -58,3 +60,4 @@ public class PrintWriterExample {
 		
 	}
 }
+
